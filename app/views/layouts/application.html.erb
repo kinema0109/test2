@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Test2</title>
+    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -10,9 +11,12 @@
   </head>
 
   <body>
-    
     <main>
-    <%= render "layouts/navbar" %>
+    <%
+=begin%>
+ <%= render "layouts/navbar" %> 
+<%
+=end%>
     <%= yield %>
     </main>
   </body>
