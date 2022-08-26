@@ -1,10 +1,10 @@
 class StaticPagesController < ApplicationController
-  def home
+  def contract
   end
 
-  def about
+  def signup
   end
 
-  def help
+  def login
   end
 end
