@@ -28,7 +28,6 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "rails-i18n"
 gem 'bootstrap-sass', '3.4.1'
-gem 'bootstrap', '~> 5.2.0'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
