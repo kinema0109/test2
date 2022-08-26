@@ -50,34 +50,32 @@ body {
             letter-spacing: -1px;
             padding-top: 9px;
             font-weight: bold;
+            } 
             
-            
-        &:hover {
+        #logo:hover {
             color: #fff;
             text-decoration: none;
             }
-        }
         footer {
-            margin-top: 45px;
-            padding-top: 5px;
+             margin-top: 45px;
+             padding-top: 5px;
             border-top: 1px solid #eaeaea;
             color: #777;
-              
-            & a {
+              }
+        footer a {
             color: #555;
-            }
-            & a:hover {
+             }
+            footer a:hover {
             color: #222;
             }
-            & small {
+            footer small {
             float: left;
             }
-            & ul {
+            footer ul {
             float: right;
             list-style: none;
             }
-            & ul li {
+            footer ul li {
             float: left;
             margin-left: 15px;
-            }     
-        }     
+            }          

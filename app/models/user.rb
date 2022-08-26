@@ -1,9 +1,5 @@
 class User < ApplicationRecord
-    def change
-        create_table :users do |t|
-            t.string :name
-            t.string :email
-            t.timestamps
-        end
-    end
+    has_many :microposts
+    validates FILL_IN, presence: true
+    validates FILL_IN, presence: true
 end
