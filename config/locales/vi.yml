@@ -1,0 +1,9 @@
+vi:
+  layouts:
+    footer:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
+    header:
+      home: "Trang chủ"
+      help: "hỗ trợ"
