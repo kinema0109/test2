@@ -6,4 +6,8 @@ vi:
       news: "Tin tức"
     header:
       home: "Trang chủ"
-      help: "hỗ trợ"
+      help: "Hỗ trợ"
+      login: "Đăng nhập"
+      language: "Ngôn ngữ"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"

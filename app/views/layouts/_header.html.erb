@@ -3,10 +3,21 @@
       <%= link_to "sample app", '#', id: "logo" %>
       <nav>
         <ul class="nav navbar-nav navbar-right">
+          <li>
+          <% if current_page?(locale: :en) %>
+            <%= content_tag :li do %>
+              <%= link_to t('layouts.header.vietnamese'), locale: :vi %>
+            <% end  %>
+          <% else%>
+            <%= content_tag :li do %>
+              <%= link_to t('layouts.header.english'), locale: :en %>
+            <% end  %>
+          <% end  %>
           <li><%= link_to t('layouts.header.home'), root_path %></li>
           <li><%= link_to t('layouts.header.help'), help_path %></li>
-          <li><%= link_to "Log in", '#' %></li>
+          <li><%= link_to t('layouts.header.login'), '#' %></li>        
         </ul>
       </nav>
+    
     </div>
 </header>
