@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   #root "users#index"
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
   root 'static_pages#home'
-  
+  resources :users
   end  
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   # Defines the root path route ("/")
