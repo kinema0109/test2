@@ -1,0 +1,13 @@
+vi:
+  layouts:
+    footer:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
+    header:
+      home: "Trang chủ"
+      help: "Hỗ trợ"
+      login: "Đăng nhập"
+      language: "Ngôn ngữ"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"

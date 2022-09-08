@@ -17,7 +17,6 @@ body {
     }
    
     nav {
-    
     margin-left: auto;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -80,4 +79,13 @@ body {
             float: left;
             margin-left: 15px;
             }     
-        }     
+        }
+.dropLanguage{
+    height: 50px;
+    float:left;
+    width: auto;
+    opacity: 9;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+}     
