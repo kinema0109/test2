@@ -112,7 +112,7 @@ input, textarea, select, .uneditable-input {
     input {
     height: auto !important;
     }
-error_explanation {
+.error_explanation {
     color: red;
     ul {
         color: red;
@@ -125,3 +125,4 @@ error_explanation {
     color: $state-danger-text;
     }
 }
+// .alert-success{}
