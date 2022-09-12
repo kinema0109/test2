@@ -1,8 +1,7 @@
 class ApplicationController < ActionController::Base
+  
   before_action :set_locale
-    def hello
-        render html:" el mundo"
-    end
+
     def default_url_options
       {locale: I18n.locale}
     end
@@ -13,5 +12,8 @@ class ApplicationController < ActionController::Base
       parsed_locale = params[:locale]
       I18n.available_locales.map(&:to_s).include?(parsed_locale)?
       parsed_locale.to_sym : nil
+    end
+    def user_params
+      params.require(:user).permit(:name,:email,:password,:password_confirmation)
     end
 end
