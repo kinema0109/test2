@@ -42,3 +42,37 @@ en:
       language: "Language"
       english: "English"
       vietnamese: "Vietnamese"
+      users: "Users"
+      account: "Account"
+    user:
+      profile: "Profile"
+      settings: "Settings"
+      signout: "Sign out"
+  flash:
+    user_delete: "User deleted"
+    profile_update: "Profile updated"
+    please_login: "Please log in"
+    danger: "Invalid email/password combination"
+    success: "account created successfully"
+  title:
+    login: "Log in"
+    about: "About"
+    help: "Help"
+    home: "Home"
+    signup: "Sign up"
+
+
+    user:
+      profile: "Profile"
+      settings: "Settings"
+      signout: "Sign out"
+  flash:
+    danger: "Invalid email/password combination"
+    success: "account created successfully"
+  title:
+    login: "Log in"
+    about: "About"
+    help: "Help"
+    home: "Home"
+    signup: "Sign up"
+

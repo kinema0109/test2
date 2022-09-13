@@ -1,4 +1,5 @@
 vi:
+
   layouts:
     footer:
       about: "Giới thiệu"
@@ -11,3 +12,21 @@ vi:
       language: "Ngôn ngữ"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+      users: "Danh sách tài khoản"
+      account: "Tài khoản"
+    user:
+      profile: "Thông tin cá nhân"
+      settings: "Cài đặt"
+      signout: "Đăng xuất"
+  flash:
+  user_delete: "Tài khoản đã được xóa"
+    profile_update: "Thông tin đã được cập nhất"
+    please_login: "Vui lòng đăng nhập"
+    danger: "Tài khoản hoặc mật khẩu không chính xác"
+    success: "Tạo tài khoản thành công"
+  title:
+    login: "Đăng nhập"
+    about: "Giới thiệu"
+    help: "Hỗ trợ"
+    home: "Trang chủ"
+    signup: "Đăng ký"
