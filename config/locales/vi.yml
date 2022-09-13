@@ -11,3 +11,16 @@ vi:
       language: "Ngôn ngữ"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
+    user:
+      profile: "Thông tin cá nhân"
+      settings: "Cài đặt"
+      signout: "Đăng xuất"
+  flash:
+    danger: "Tài khoản hoặc mật khẩu không chính xác"
+    success: "Tạo tài khoản thành công"
+  title:
+    login: "Đăng nhập"
+    about: "Giới thiệu"
+    help: "Hỗ trợ"
+    home: "Trang chủ"
+    signup: "Đăng ký"
