@@ -42,6 +42,8 @@ en:
       language: "Language"
       english: "English"
       vietnamese: "Vietnamese"
+      users: "Users"
+      account: "Account"
     user:
       profile: "Profile"
       settings: "Settings"
