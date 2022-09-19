@@ -1,0 +1,11 @@
+- provide(:title,t('title.home'))
+.center.jumbotron
+  h1
+    | WELLCOME TO RAILS
+  h2
+    a[href="https://github.com/kinema0109/test2/pulls"]
+      | this is my home page for the rubys on rails tutorial simple application
+  = link_to t("layouts.button.button_signup"), signup_path, class: "btn btn-lg btn-primary"
+.center
+  = link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
+  - "https://rubyonrails.org/"

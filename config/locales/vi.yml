@@ -1,6 +1,10 @@
 vi:
-
   layouts:
+    button:
+      button_signup: "Tạo tài khoản"
+      button_login: "Đăng nhập"
+    decription:
+      text_signup: "Đăng ký"
     footer:
       about: "Giới thiệu"
       contact: "Liên hệ"
@@ -19,14 +23,16 @@ vi:
       settings: "Cài đặt"
       signout: "Đăng xuất"
   flash:
-  user_delete: "Tài khoản đã được xóa"
+    user_delete: "Tài khoản đã được xóa"
     profile_update: "Thông tin đã được cập nhất"
     please_login: "Vui lòng đăng nhập"
     danger: "Tài khoản hoặc mật khẩu không chính xác"
     success: "Tạo tài khoản thành công"
+    notfound: "Không tìm thấy tài khoản"
   title:
     login: "Đăng nhập"
     about: "Giới thiệu"
     help: "Hỗ trợ"
     home: "Trang chủ"
     signup: "Đăng ký"
+  

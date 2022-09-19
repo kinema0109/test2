@@ -12,14 +12,10 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy'
   resources :microposts
   resources :users
+  resources :account_activations, only: [:edit]
   get 'about', to: 'pages#about'
   get 'home', to: 'pages#home'
-  #root "application#hello"
-  #root "users#index"
   scope '(:locale)', locale: /#{I18n.available_locales.join("|")}/ do
   root 'static_pages#home'
   end  
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-  # Defines the root path route ("/")
-  # root "articles#index"
 end
