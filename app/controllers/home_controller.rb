@@ -7,7 +7,7 @@ class HomeController < ApplicationController
   def header
     render:"header"
   end
-  def api 
+  def api
       @response = {
         :status => 200,
         :messages => "hello world"

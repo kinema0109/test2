@@ -9,11 +9,12 @@ class UsersController < ApplicationController
 
   def show
     @user= User.find(params[:id])
-  end 
+    @microposts = @user.microposts.paginate(page: params[:page])
+  end
 
   def new
     @user=User.new
-  end 
+  end
 
   def create
     @user=User.new(user_params)
@@ -21,7 +22,7 @@ class UsersController < ApplicationController
       UserMailer.account_activation(@user).deliver_now
       flash[:success] = t("flash.success")
       redirect_to root_url
-    else 
+    else
       render 'new'
     end
   end
@@ -38,13 +39,13 @@ class UsersController < ApplicationController
       flash[:danger] = t('flash.notfound')
     end
   end
-  
+
   def update
     @user=User.find(params[:id])
     if @user.update(user_params)
       flash[:success] = t("flash.profile_updated")
       redirect_to @user
-    else 
+    else
       render 'edit'
     end
   end
