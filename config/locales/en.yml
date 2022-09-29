@@ -5,6 +5,8 @@ en:
       button_login: "Login"
     decription:
       text_signup: "Sign up now"
+      forget_password: "Forgot password"
+      remember_computer: "Remember this computer"
     footer:
       about: "About"
       contact: "Contact"
@@ -29,23 +31,15 @@ en:
     danger: "Invalid email/password combination"
     success: "account created successfully"
     notfound: "can't found account"
+    email_send_password: "Hướng dẫn cài lại mật khẩu đã được gửi về email"
+    email_address: "Email address not found"
+    password_reset: "Password has been reset"
+    password_reset_expired: "Password reset has expired"
   title:
     login: "Log in"
     about: "About"
     help: "Help"
     home: "Home"
     signup: "Sign up"
-    user:
-      profile: "Profile"
-      settings: "Settings"
-      signout: "Sign out"
-  flash:
-    danger: "Invalid email/password combination"
-    success: "account created successfully"
-  title:
-    login: "Log in"
-    about: "About"
-    help: "Help"
-    home: "Home"
-    signup: "Sign up"
+    ForgotPassword: "Forgot password"
 

@@ -23,3 +23,5 @@ module Test2
     config.i18n.fallbacks = true
   end
 end
+
+

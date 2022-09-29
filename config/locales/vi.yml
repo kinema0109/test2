@@ -5,6 +5,8 @@ vi:
       button_login: "Đăng nhập"
     decription:
       text_signup: "Đăng ký"
+      forget_password: "Quên mật khẩu?"
+      remember_computer: "Ghi nhớ đăng nhập"
     footer:
       about: "Giới thiệu"
       contact: "Liên hệ"
@@ -29,10 +31,15 @@ vi:
     danger: "Tài khoản hoặc mật khẩu không chính xác"
     success: "Tạo tài khoản thành công"
     notfound: "Không tìm thấy tài khoản"
+    email_send_password: "Hướng dẫn cài lại mật khẩu đã gửi về email"
+    email_address: "Không tìm thấy email"
+    password_reset: "Thay đổi mật khẩu thành công"
+    password_reset_expired: "Thay đổi mật khẩu đã hết hạn"
   title:
     login: "Đăng nhập"
     about: "Giới thiệu"
     help: "Hỗ trợ"
     home: "Trang chủ"
     signup: "Đăng ký"
+
 

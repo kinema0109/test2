@@ -1,2 +1,2 @@
       invoke  active_record
-      create    db/migrate/20220920063823_add_reset_to_users.rb
+    conflict    db/migrate/20220922025837_add_reset_to_users.rb
